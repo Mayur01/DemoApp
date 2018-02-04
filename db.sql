@@ -1,5 +1,9 @@
-CREATE DATABASE user_db;
+CREATE DATABASE IF NOT EXISTS user_db;
+
 USE user_db;
-CREATE TABLE users (
-Email VARCHAR(30) NOT NULL PRIMARY KEY
-Password VARCHAR(30) NOT NULL)
+
+CREATE TABLE IF NOT EXISTS users (
+  email VARCHAR(30),
+  password VARCHAR(30),
+  PRIMARY_KEY(email)
+);

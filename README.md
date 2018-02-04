@@ -1,2 +1,2 @@
 # DemoApp
-php app for login and registration
+- [] init db

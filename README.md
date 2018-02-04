@@ -1,2 +1,2 @@
 # DemoApp
-- [] init db
+- [ ] init db
